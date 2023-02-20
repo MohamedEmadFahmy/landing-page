@@ -56,6 +56,7 @@ a {
 .subheading img {
     width: 400px;
     height: 220px;
+    border-radius: 3%;
 }
 .subheading h1 {
     font-size: 48px;
@@ -71,6 +72,9 @@ a {
     flex-direction: column;
     gap: 12px;
 }
+.subheading .right-image {
+    height: 220px;
+}
 .subheading h1 {
     line-height: 50px;
 }
@@ -83,4 +87,50 @@ a {
     border-radius: 12px;
     font-weight: bolder;
     border-width: 0px;
+}
+.info {
+    height: 520px;
+    border: 1px solid;
+    /* background-color: rgb(148, 250, 148); */
+    display: flex;
+    flex-direction: column;
+    padding: 40px 130px;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+}
+.info h2 {
+    font-size: 36px;
+    font-weight: 950;
+    color: #1f2937;
+}
+.info .bar {
+    display: flex;
+    gap: 90px;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+}
+.info .bar .item {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    gap: 14px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.info .bar .item img {
+    width: 230px;
+    height: 200px;
+    /* border: #3882f6 3px solid; */
+    /* border: #5f6268 3px solid; */
+    border-radius: 7px;
+}
+.info .bar .item p {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+}
+.testemonial {
+    height: 400px;
+    background-color: grey;
 }
