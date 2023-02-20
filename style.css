@@ -78,10 +78,10 @@ a {
 .subheading h1 {
     line-height: 50px;
 }
-.subheading button {
+button {
     background-color: #3882f6;
     font-size: large;
-    color: #E5E7EB;
+    color: #f9faf8;
     width: 120px;
     padding: 6px 9px;
     border-radius: 12px;
@@ -152,4 +152,35 @@ a {
     color: #1f2937;
     font-weight: 700;
     font-size: 28px;
+}
+.sign-up {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up .box {
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-up p.main-text {
+    color: #f9f3f8;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign-up p.small-text {
+    color: #e5e7eb;
+}
+.sign-up button {
+    border: 2px solid #f9faf8;;
+    padding: 6px 20px;
+}
+.footer {
+    background-color: #1F2937;
+    height: 300px;
 }
