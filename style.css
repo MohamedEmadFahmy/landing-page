@@ -10,10 +10,6 @@ img {
 body {
     display: flex;
     flex-direction: column;
-    /* padding-left: 100px;
-    padding-right: 100px; */
-    /* margin-left: 100px;
-    margin-right: 100px; */
 }
 .nav {
     background-color: #1F2937;
@@ -34,7 +30,6 @@ body {
     width: 125px;
     border: 1px solid black;
     border-radius: 5px;
-    /* height: 70px; */
 }
 ul {
     list-style: none; 
@@ -46,11 +41,9 @@ a {
 }
 .subheading {
     background-color: #1F2937;
-    /* background-color: rgb(148, 250, 148); */
     height: 500px;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 200px;
 }
 .subheading img {
@@ -90,11 +83,9 @@ button {
 }
 .info {
     height: 520px;
-    /* background-color: rgb(148, 250, 148); */
     display: flex;
     flex-direction: column;
     padding: 40px 130px;
-    /* justify-content: center; */
     align-items: center;
     gap: 50px;
 }
@@ -106,22 +97,16 @@ button {
 .info .bar {
     display: flex;
     gap: 90px;
-    /* align-items: flex-start; */
-    /* justify-content: center; */
 }
 .info .bar .item {
     display: flex;
     flex-direction: column;
     width: 230px;
     gap: 14px;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 .info .bar .item img {
     width: 230px;
     height: 200px;
-    /* border: #3882f6 3px solid; */
-    /* border: #5f6268 3px solid; */
     border-radius: 7px;
 }
 .info .bar .item p {
@@ -142,7 +127,6 @@ button {
 .testimonial .quote p {
     font-family: monospace;
     font-size: 36px;
-    /* font-weight: 100; */
     font-style: italic;
     color: #1f2937;
 }
